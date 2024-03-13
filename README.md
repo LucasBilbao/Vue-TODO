@@ -1,35 +1,5 @@
-# todo
+# TODO
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple very TODO application implemented with vue to test some of the aspects of vue
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+I had an idea to implement all the interactions with a custom hook called [useTodoHook](./src/hooks/todoStore.js) and then use the methods and computed values in the components like in the [TodoList.vue](./src/components/TodoList.vue#17) or in the [TheForm.vue](./src/components/TheForm.vue#13)
